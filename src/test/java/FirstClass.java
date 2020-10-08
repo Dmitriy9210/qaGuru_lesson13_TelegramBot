@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @Tag("tests")
-public class FirstClass extends TestBase{
+public class FirstClass{
     @Test
     void firstTest() {
         assertTrue(true);
