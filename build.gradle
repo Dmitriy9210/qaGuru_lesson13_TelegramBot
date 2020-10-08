@@ -55,7 +55,7 @@ tasks.withType(Test) {
 }
 
 task tests(type: Test) {
-//    useJUnitPlatform {
+    useJUnitPlatform {
 //        includeTags 'tests'
-//    }
+    }
 }
