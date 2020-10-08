@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class FirstClass {
+public class FirstClass extends TestBase{
     @Test
     void firstTest() {
         assertTrue(true);
